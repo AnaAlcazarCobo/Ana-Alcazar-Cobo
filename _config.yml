@@ -1,6 +1,7 @@
-title: Ana Alcazar Cobo
-description: Profesional trajectory
-author: "Ana Alcazar Cobo"
-url: "https://ana-alcazar-cobo.com
-lang: "es"
-timezone: "Spain/Barcelona"
+# Configuración básica del sitio
+title: "Portafolio de [Tu Nombre]"
+description: "Portafolio profesional de [Tu Nombre], desarrollador de software."
+baseurl: "" # La URL base del sitio (dejar vacío si está en la raíz del dominio)
+url: "https://tuportafolio.com" # La URL completa de tu sitio
+lang: "es" # Idioma del sitio
+timezone: "America/Argentina/Buenos_Aires" # Ajustar según tu zona horaria
