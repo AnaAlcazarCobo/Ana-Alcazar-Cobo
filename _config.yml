@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+title: Ana Alcazar Cobo
+description: Profesional trajectory
+author: "Ana Alcazar Cobo"
+url: "https://ana-alcazar-cobo.com
+lang: "es"
+timezone: "Spain/Barcelona"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
