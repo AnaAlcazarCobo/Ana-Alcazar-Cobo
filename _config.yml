@@ -5,3 +5,4 @@ baseurl: ""
 url: "https://ana-alcazar-cobo.com" # La URL completa de tu sitio
 lang: "es" # Idioma del sitio
 timezone: "Spain/Barcelona" # Ajustar según tu zona horaria
+theme: jekyll-theme-dinky
