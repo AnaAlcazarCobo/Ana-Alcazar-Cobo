@@ -1,7 +1,7 @@
 # Configuración básica del sitio
-title: "Portafolio de [Tu Nombre]"
-description: "Portafolio profesional de [Tu Nombre], desarrollador de software."
-baseurl: "" # La URL base del sitio (dejar vacío si está en la raíz del dominio)
-url: "https://tuportafolio.com" # La URL completa de tu sitio
+title: "Ana Alcázar Cobo"
+description: "Videogame Programmer, Videogame Artist & Videogame Designer"
+baseurl: ""
+url: "https://ana-alcazar-cobo.com" # La URL completa de tu sitio
 lang: "es" # Idioma del sitio
-timezone: "America/Argentina/Buenos_Aires" # Ajustar según tu zona horaria
+timezone: "Spain/Barcelona" # Ajustar según tu zona horaria
