@@ -406,7 +406,6 @@ h3.my-profession
 {
 	flex: 0 0 50%;
 	max-width: 50%;
-	
 }
 
 .about .about-content .personal-info .info-item p
@@ -853,7 +852,8 @@ h3.my-profession
 /* portfolio */
 .portfolio .portfolio-item
 {
-	max-width: 33.33%;
+	flex: 0 0 33.33%;
+	max-width: 100%;
 	padding: 10px 10px;
 }
 .portfolio .portfolio-item .portfolio-item-inner
@@ -1048,4 +1048,87 @@ h3.my-profession
 .contact .contact-form .btn{
 	height: 50px;
 	padding: 0 50px;
+}
+
+@media (max-width:1199px)
+{
+	.aside
+	{
+		left: -270px;
+	}
+
+	.main-content
+	{
+		padding-left: 0;
+	}
+	.about .about-content .personal-info .info-item p span
+	{
+		display: block;
+		margin-left: 0;
+	}
+}
+
+@media (max-width:990px)
+{
+	.home .home-info
+	{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.home .home-img
+	{
+		display: none;
+	}
+}
+
+@media (max-width:700px)
+{
+	.portfolio .portfolio-item
+	{
+		flex: 0 0 50%;
+	}
+}
+
+@media (max-width:400px)
+{
+	.portfolio .portfolio-item
+	{
+		flex: 0 0 100%;
+	}
+
+	.service .service-item
+	{
+		margin-bottom: 30px;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.about .about-content .education, .about .about-content .experience
+	{
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-top: 30px;
+	}
+	.about .about-content .skills .skill-info-item
+	{
+		display: none;
+	}
+
+	.about .about-content .personal-info .info-item
+	{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.contact .contact-info-item
+	{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.about .about-content .skills
+	{
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-top: 100px;
+	}
 }
